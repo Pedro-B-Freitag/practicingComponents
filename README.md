@@ -1,4 +1,5 @@
 # PracticingComponents
+This project is the answer to the first assignment of the course: Angular - The Complete Guide (2024 Edition)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
