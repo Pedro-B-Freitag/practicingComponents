@@ -1,0 +1,8 @@
+<div>
+    <button class="btn btn-primary" (click)="toggleDetails()">Display Details</button>
+    <p *ngIf="ShowSecret">Password is "tuna"</p>
+    <div *ngFor='let numbersItem of Numbers'
+    [ngStyle]="{backgroundColor: numbersItem >= 5 ? 'blue' : 'transparent'}"
+    [ngClass]="{'white-text': numbersItem >= 5}"
+    > {{numbersItem}} </div>
+</div>  
